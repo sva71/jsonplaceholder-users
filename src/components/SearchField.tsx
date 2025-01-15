@@ -19,6 +19,7 @@ export const SearchField: React.FC<SearchFieldProps> = ({ onSearch }) => {
   };
 
   return (
+    <div className="mb-4">
     <FormControl variant="standard">
       <InputLabel htmlFor="input-with-icon-adornment">
         Search by name
@@ -33,5 +34,6 @@ export const SearchField: React.FC<SearchFieldProps> = ({ onSearch }) => {
         onChange={inputChange}
       />
     </FormControl>
+    </div>
   );
 };

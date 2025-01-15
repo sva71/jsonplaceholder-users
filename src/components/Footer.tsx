@@ -5,5 +5,5 @@ type FooterProps = {
 };
 
 export const Footer: React.FC<FooterProps> = ({ title }) => (
-  <div className="py-4 text-xl">{ title }</div>
+  <div className="mt-4 py-4 text-base lg:text-xl">{ title }</div>
 );
